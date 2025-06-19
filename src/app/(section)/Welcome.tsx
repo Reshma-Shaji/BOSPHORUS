@@ -490,9 +490,9 @@ const WelcomeRes = () => {
   return (
     <section
       id="welcome"
-      className="relative flex w-full flex-col items-center justify-center overflow-hidden bg-[#fdfdfd]"
+      className="relative flex w-full flex-col items-center justify-center overflow-hidden bg-black"
     >
-      <div className="relative z-40 flex h-fit w-full flex-col items-center justify-center gap-9 overflow-hidden bg-[#fdfdfd] px-4 py-12 md:px-3 lg:flex-row lg:gap-0 lg:py-24">
+      <div className="relative z-40 flex h-fit w-full flex-col items-center justify-center gap-9 overflow-hidden bg-black px-4 py-12 md:px-3 lg:flex-row lg:gap-0 lg:py-24">
         <div className="absolute left-0 top-0 h-full w-full py-12 md:py-24">
           {/* <div
             className="h-full w-full"
@@ -505,13 +505,13 @@ const WelcomeRes = () => {
           /> */}
         </div>
 
-        <div className="z-30 flex h-full w-full flex-col items-center justify-center gap-5 md:px-[120px] lg:gap-24">
+        <div className="z-30 flex h-full w-full flex-col items-center justify-center gap-5 md:px-[120px] lg:gap-14">
           <motion.p
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="font-opensans text-center text-3xl font-[400] uppercase text-primary-foreground md:text-7xl"
+            className="font-Inter, sans-serif text-center text-xl font-[400] uppercase text-[#b0881a] text-primary-foreground md:text-7xl"
           >
             STORY OF BOSPHORUS
           </motion.p>
@@ -521,17 +521,17 @@ const WelcomeRes = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: true }}
-            className="font-opensans text-center font-normal text-primary-foreground md:text-2xl"
+            className="font-Inter, sans-serif text-center text-sm font-light text-[#b0881a] text-primary-foreground md:text-xl"
           >
-            At Bosphorus, you&apos;ll always be greeted with genuine Turkish
-            hospitality from our friendly and <br /> attentive team. Our staff
-            takes pride in making every guest feel at home, ensuring your dining
-            <br />
-            experience is warm, welcoming, and truly memorable.
+            At Bosphorus, you`ll always be greeted with genuine Turkish
+            hospitality from our friendly and <br />
+            attentive team. Our staff takes pride in making every guest feel at
+            home, ensuring your dining <br /> experience is warm, welcoming, and
+            truly memorable.
           </motion.p>
 
           <motion.div
-            className="relative flex w-full items-center justify-center gap-4"
+            className="relative flex w-full items-center justify-center gap-16"
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1 }}
@@ -571,10 +571,10 @@ const WelcomeRes = () => {
               >
                 <Image
                   src={`/images/${img}.webp`}
-                  width={200}
-                  height={300}
+                  width={600}
+                  height={500}
                   alt={`Dish ${i + 1}`}
-                  className="w-full max-w-[150px] md:max-w-[200px]"
+                  className="h-[500px] max-w-[150px] md:max-w-[360px]"
                 />
               </motion.div>
             ))}
