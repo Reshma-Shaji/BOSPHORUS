@@ -511,7 +511,7 @@ const WelcomeRes = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="font-Inter, sans-serif text-center text-xl font-[400] uppercase text-[#b0881a] text-primary-foreground md:text-7xl"
+            className="font-Inter, sans-serif text-center text-xl font-[400] uppercase text-[#ab8724] text-primary-foreground md:text-6xl"
           >
             STORY OF BOSPHORUS
           </motion.p>
@@ -521,7 +521,7 @@ const WelcomeRes = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: true }}
-            className="font-Inter, sans-serif text-center text-sm font-light text-[#b0881a] text-primary-foreground md:text-xl"
+            className="font-Inter, sans-serif text-center text-sm font-light text-[#ab8724] text-primary-foreground md:text-lg"
           >
             At Bosphorus, you`ll always be greeted with genuine Turkish
             hospitality from our friendly and <br />
@@ -531,7 +531,7 @@ const WelcomeRes = () => {
           </motion.p>
 
           <motion.div
-            className="relative flex w-full items-center justify-center gap-16"
+            className="relative flex flex-wrap items-center justify-center gap-6 md:gap-16"
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1 }}
@@ -574,7 +574,7 @@ const WelcomeRes = () => {
                   width={600}
                   height={500}
                   alt={`Dish ${i + 1}`}
-                  className="h-[500px] max-w-[150px] md:max-w-[360px]"
+                  className="h-[500px] max-w-[150px] sm:w-[350px] md:max-w-[360px]"
                 />
               </motion.div>
             ))}
