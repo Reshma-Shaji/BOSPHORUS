@@ -511,7 +511,7 @@ const WelcomeRes = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="font-Inter, sans-serif text-center text-xl font-[400] uppercase text-[#ab8724] text-primary-foreground md:text-6xl"
+            className="font-Inter, sans-serif text-center text-xl font-[400] uppercase text-[#ce892f] text-primary-foreground md:text-6xl"
           >
             STORY OF BOSPHORUS
           </motion.p>
@@ -521,7 +521,7 @@ const WelcomeRes = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: true }}
-            className="font-Inter, sans-serif text-center text-sm font-light text-[#ab8724] text-primary-foreground md:text-lg"
+            className="font-Inter, sans-serif text-center text-sm font-light text-[#ce892f] text-primary-foreground md:text-lg"
           >
             At Bosphorus, you`ll always be greeted with genuine Turkish
             hospitality from our friendly and <br />

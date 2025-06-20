@@ -20,30 +20,29 @@ const HeroSection: React.FC = () => {
         </div>
         <div className="absolute left-0 top-0 h-full w-full bg-black/30" />
         <div className="z-10 flex flex-col items-center justify-center gap-10 md:items-start md:px-[120px]">
-          <p className="font-opensans bg-clip-text text-center text-3xl font-[200] uppercase tracking-wider md:text-start md:text-8xl">
+          <p className="font-opensans bg-gradient-to-b from-white to-[#191717] bg-clip-text text-center text-3xl font-[200] uppercase tracking-wider text-transparent md:text-start md:text-8xl">
             {/* GREAT TAPAS IN
             <br /> MANCHESTER */}
             BOSPHORUS
           </p>
+
           {/* <p className="w-full text-center font-cormorant text-2xl font-[400] uppercase text-white md:text-start">
             WELCOME TO CHORLTON TAPAS RESTURANT
           </p> */}
           <Link href="/table-booking">
-            <div className="flex flex-row items-center justify-center gap-5">
+            <div className="flex w-full flex-wrap items-center justify-center gap-5">
               <Button
-                className="items-center justify-center rounded-none border-white px-[20px] py-7 font-cormorant text-base font-[600] uppercase tracking-[3px] text-white duration-300 hover:bg-[#cccccc66]"
+                className="font-opensans items-center justify-center rounded-none border-none bg-[#e88829] px-[30px] py-7 text-sm font-[400] tracking-[3px] text-white duration-300 hover:bg-white hover:text-black"
                 variant="outline"
                 size="lg"
               >
-                {/* <p>book table</p> */}
                 <p>Reserve Table</p>
               </Button>
               <Button
-                className="items-center justify-center rounded-none border-white px-[20px] py-7 font-cormorant text-base font-[600] uppercase tracking-[3px] text-white duration-300 hover:bg-[#cccccc66]"
+                className="font-opensans items-center justify-center rounded-none border-none bg-[#e88829] px-[30px] py-7 text-sm font-[400] tracking-[3px] text-white duration-300 hover:bg-white hover:text-black"
                 variant="outline"
                 size="lg"
               >
-                {/* <p>book table</p> */}
                 <p>Order Online</p>
               </Button>
             </div>
