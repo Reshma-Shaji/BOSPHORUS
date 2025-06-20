@@ -506,29 +506,17 @@ const WelcomeRes = () => {
         </div> */}
 
         <div className="z-30 flex h-full w-full flex-col items-center justify-center gap-5 md:px-[120px] lg:gap-14">
-          <motion.p
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
-            className="font-Inter, sans-serif text-center text-xl font-[400] uppercase text-[#ce892f] text-primary-foreground md:text-6xl"
-          >
+          <p className="sans-serif text-center font-inter text-xl font-[400] uppercase text-[#ce892f] text-primary-foreground md:text-6xl">
             STORY OF BOSPHORUS
-          </motion.p>
+          </p>
 
-          <motion.p
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            viewport={{ once: true }}
-            className="font-Inter, sans-serif text-center text-sm font-light text-[#ce892f] text-primary-foreground md:text-lg"
-          >
+          <p className="sans-serif text-center font-inter text-sm font-light text-[#ce892f] text-primary-foreground md:text-lg">
             At Bosphorus, you`ll always be greeted with genuine Turkish
             hospitality from our friendly and <br />
             attentive team. Our staff takes pride in making every guest feel at
             home, ensuring your dining <br /> experience is warm, welcoming, and
             truly memorable.
-          </motion.p>
+          </p>
 
           <motion.div
             className="relative flex flex-wrap items-center justify-center gap-6 md:gap-16"
