@@ -20,7 +20,7 @@ const HeroSection: React.FC = () => {
         </div>
         <div className="absolute left-0 top-0 h-full w-full bg-black/30" />
         <div className="z-10 flex flex-col items-center justify-center gap-10 md:items-start md:px-[120px]">
-          <p className="font-opensans bg-gradient-to-b from-white to-[#191717] bg-clip-text text-center text-3xl font-[200] uppercase tracking-wider text-transparent md:text-start md:text-8xl">
+          <p className="font-opensans relative bg-gradient-to-b from-white to-[#191717] bg-clip-text text-center text-3xl font-[200] uppercase tracking-wider text-transparent md:text-start md:text-8xl">
             {/* GREAT TAPAS IN
             <br /> MANCHESTER */}
             BOSPHORUS
@@ -30,7 +30,7 @@ const HeroSection: React.FC = () => {
             WELCOME TO CHORLTON TAPAS RESTURANT
           </p> */}
           <Link href="/table-booking">
-            <div className="flex w-full flex-wrap items-center justify-center gap-5">
+            <div className="absolute right-[570px] flex flex-wrap gap-5">
               <Button
                 className="font-opensans items-center justify-center rounded-none border-none bg-[#e88829] px-[30px] py-7 text-sm font-[400] tracking-[3px] text-white duration-300 hover:bg-white hover:text-black"
                 variant="outline"

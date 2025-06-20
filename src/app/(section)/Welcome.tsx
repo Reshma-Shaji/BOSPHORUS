@@ -493,8 +493,8 @@ const WelcomeRes = () => {
       className="relative flex w-full flex-col items-center justify-center overflow-hidden bg-black"
     >
       <div className="relative z-40 flex h-fit w-full flex-col items-center justify-center gap-9 overflow-hidden bg-black px-4 py-12 md:px-3 lg:flex-row lg:gap-0 lg:py-24">
-        <div className="absolute left-0 top-0 h-full w-full py-12 md:py-24">
-          {/* <div
+        {/* <div className="absolute left-0 top-0 h-full w-full py-12 md:py-24">
+          <div
             className="h-full w-full"
             style={{
               backgroundImage: "url('/images/home/about/bg.png')",
@@ -502,8 +502,8 @@ const WelcomeRes = () => {
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
             }}
-          /> */}
-        </div>
+          />
+        </div> */}
 
         <div className="z-30 flex h-full w-full flex-col items-center justify-center gap-5 md:px-[120px] lg:gap-14">
           <motion.p
