@@ -506,11 +506,11 @@ const WelcomeRes = () => {
         </div> */}
 
         <div className="z-30 flex h-full w-full flex-col items-center justify-center gap-5 md:px-[120px] lg:gap-14">
-          <p className="sans-serif text-center font-inter text-xl font-[400] uppercase text-[#ce892f] text-primary-foreground md:text-6xl">
+          <p className="sans-serif text-center font-inter text-xl font-[400] uppercase text-[#ce892f] md:text-6xl">
             STORY OF BOSPHORUS
           </p>
 
-          <p className="sans-serif text-center font-inter text-sm font-light text-[#ce892f] text-primary-foreground md:text-lg">
+          <p className="sans-serif text-center font-inter text-sm font-light text-[#ce892f] md:text-lg">
             At Bosphorus, you`ll always be greeted with genuine Turkish
             hospitality from our friendly and <br />
             attentive team. Our staff takes pride in making every guest feel at
